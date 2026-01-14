@@ -111,12 +111,14 @@ code {
 .code-area {
     display: flex;
     align-items: center;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(255,255,255,0.5);
+    box-sizing: content-box;
+    border: 2px solid rgba(255,255,255,0.5);
     border-radius: 8px;
     padding: 4px;
     height: 32px;
     font-family: "SF Mono";
-    color: #ffffff;
+    color: black;
     overflow-x: auto;
 }
 

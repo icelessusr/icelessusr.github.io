@@ -76,6 +76,7 @@
 }
 
 .tag {
+    box-sizing: content-box;
     height: 36px;
     background-color: black;
     padding: 4px 12px 4px 12px;
@@ -85,7 +86,7 @@
     align-items: center;
     justify-items: center;
     text-justify: center;
-    border: 2px solid #8c8c8c;
+    border: 2px solid rgba(255,255,255,0.5);
 }
 
 .tag p {
@@ -118,8 +119,9 @@
     height: 120px;
     border-radius: 12px;
     display: flex;
+    box-sizing: content-box;
     background-color: #8c8c8c;
-    border: 2px solid #8c8c8c;;
+    border: 2px solid rgba(255,255,255,0.5);
     position: relative;
 }
 
@@ -147,7 +149,10 @@
     padding: 4px 16px;
     height: 32px;
     border-radius: 8px;
-    background-color: rgba(0,0,0,0.7);
+    color: black;
+    box-sizing: content-box;
+    border: 2px solid rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.3);
 }
 
 .contact-link:hover {
