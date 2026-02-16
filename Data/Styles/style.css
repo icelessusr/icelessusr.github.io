@@ -6,7 +6,7 @@ body {
 }
 
 code {
-    font-family: "SF Mono"
+    font-family: monospace;
 }
 
 * {
